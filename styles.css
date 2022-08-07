@@ -1,0 +1,117 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  background-color: #fff;
+}
+
+#game-name {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+#game-start {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+#game-level {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.centerbuttons {
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+#difficulty {
+  margin-top: 6px;
+  font-size: 1.5rem;
+}
+
+#difficultyname, #startgame {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.gameboard {
+  background-color: #333;
+  width: 600px;
+  height: 600px;
+  border-radius: 30%;
+  border: 15px solid #333;
+  margin: 80px auto;
+  position: relative;
+  box-shadow: 0px 0px 150px #333;
+}
+
+.circle {
+  height: 230px;
+  width: 230px;
+  background-color: #333;
+  position: absolute;
+  margin: auto;
+  left: 170px;
+  border-radius: 50%;
+  top: 180px;
+  z-index: 10;
+  box-shadow: 0px 0px 35px #000;
+  cursor: pointer;
+}
+
+.gamebutton {
+  display: inline-block;
+  margin: auto;
+}
+
+.clickbutton {
+  display: inline-block;
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.clickboard {
+  margin-top: 5px;
+}
+
+.social {
+  color: #fff;
+  margin: 7px;
+}
+
+.socialfooter {
+  font-size: 0.7rem;
+  color: #fff;
+  margin-top: 5%;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background-color: #333;
+}
+
+.game-over {
+  background-color: #EB4747;
+  opacity: 0.8;
+}
+
+.game-win {
+  background-color: #3AB4F2;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 0 30px #fff;
+}
